@@ -28,7 +28,7 @@
     </slot>
     <span :class="textClass" :style="textStyle">
       <slot name="login" v-bind="scope" v-if="scope.idle && scope.disconnected"
-        >Continue with Facebook</slot
+        ></slot
       >
       <slot name="logout" v-bind="scope" v-if="scope.idle && scope.connected"
         >Logout</slot
